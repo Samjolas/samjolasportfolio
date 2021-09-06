@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: var(--secondary-color);
+	color: var(--primary-color);
+	font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-weight: 300;
+	font-size: 20px;
+	text-rendering: optimizelegibility;
+}
+
+:root {
+    --primary-color: #000000;
+    --secondary-color: #ffffff;
+    --color: #eeeeee;
+    
+}
+
+.dark-theme {
+    --primary-color: #ffffff;
+    --secondary-color: #000000;
+    --color: blue;
+}
+
+
+.row {
+	max-width: 800px;
+	margin: 0 auto 0 auto;
+    
+}
+
+.mode {
+    width: 100px;
+    float: right; 
+}
+
+
+#icon {
+    width: 30px;
+    cursor: pointer;
+    margin-top: -70px;
+}
+.logo {
+    width: 50px;
+    height:auto; 
+}
+header {
+    margin-top: 10px;
+    width: 1000px; 
+    margin: 0 auto 0 auto;
+    
+}
+
+
+
+header p{
+    font-size: 70%;
+    margin-top: 10px;
+}
+
+header h2{
+    margin-top: -40px;
+}
+
+img{
+    border-radius: 50%;
+    width: 45%;
+    height: auto;
+    box-sizing: border-box;
+    margin-bottom: 70px;
+    
+}
+
+.logo img {
+    width: 40%; 
+    border: 5px solid #FF871E;
+    margin-top: 60px; 
+    margin-left: 180px;
+
+}
+
+
+.box1 {
+    border-radius: 25px;
+    background-color: var(--color); 
+    padding-bottom: 20px;
+    margin-top: -50px;
+    
+}
+
+.story h1 {
+    padding: 40px 0 0 25px; 
+
+}
+
+.story p {
+    font-size: 70%;
+    margin-top: 10px;
+    padding: 0 25px 10px 25px;
+}
+
+.box-content {
+    border-radius: 10px;
+    background-color: #FF871E; 
+    width: 700px;
+    margin: 0 auto 0 auto;
+    line-height: center;
+}
+
+.box-content:hover {
+    background-color: #ffffff; 
+    
+}
+
+.box-content p:hover {
+    color: #FF871E; 
+}
+.box-content p {
+    
+    padding-top: 20px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+a {
+    text-decoration: none;  
+
+}
+
+
+
+.nav img {
+    width: 20px;
+    height: auto;
+}
+
+button {
+    background-color: black;
+    width: 45px;
+    height: 45px;
+    margin-left: 90px;
+    border-radius: 50%;
+}
